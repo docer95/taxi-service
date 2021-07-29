@@ -1,9 +1,9 @@
-#Taxi-service
+# Taxi-service
 
 This project developed for taxi service.
-With this application you have opportunity easy control your business.
-Program allow created new database in which you add your cars,
-create or register new driver and assign a car to the driver.
+With this application, you have the opportunity to easy control your business.
+The program allows you to create a new database to which you can add your cars,
+create or register a new driver and assign a driver to the car.
 
 ### Technologies in this project:
 * SQL
@@ -26,7 +26,7 @@ create or register new driver and assign a car to the driver.
    and change fields (URL - address behind which your database, USERNAME - your login,
    PASSWORD - your password, JDBC_DRIVER - path for JDBC driver)
 8. In this project, open the file that is located at the address taxi-service/src/main/resources/log4j2.xml 
-   and change path in field "filename" for logger
+   and change path in field "filename" for your .log file
 9. Add Configurations -> add new run configuration... -> Tomcat Server -> Local. 
    After than go to tab "Deployment" -> to push button "fix" -> taxi-service:war exploded.
    After than scroll below, in field "Application context" -> write - "/"
